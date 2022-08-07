@@ -11,11 +11,11 @@
 
 Read through the comments for set up instructions. Settings are marked with a "SETTING:" comment.
 
-## Changes:
+## Changes
 
 + Changed post type from Daily to To Do
 
-## New Features:
+## New Features
 
 + Add events a set number of days before the event occurs
 + Get checklist items from Calendar event description, if specified in the following format: "Checklist: Item 1, Another item, Item 3, etc;"
