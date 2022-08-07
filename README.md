@@ -7,6 +7,22 @@
     </a>
 </p>
 
+# Note: This is a fork of the original Google Apps Script - Calendar Integration
+
+Read through the comments for set up instructions. Settings are marked with a "SETTING:" comment.
+
+## Changes:
+
++ Changed post type from Daily to To Do
+
+## New Features:
+
++ Add events a set number of days before the event occurs
++ Get checklist items from Calendar event description, if specified in the following format: "Checklist: Item 1, Another item, Item 3, etc;"
++ Get description text from Calendar event description, if specified in the following format: "Description: Some text here;"
++ Get attribute to add points to from Calendar event description, if specified using the following format: "Attribute: Str;"
++ Tag each task with the Calendar's name
+
 # Habitica Google Apps Script - Calendar Integration 
 
 This script aims to take advantage of all the abstraction contained within the use of the [Google Apps Script](https://developers.google.com/apps-script) platform, that makes easier to create and publish add-ons in an online store for Google Calendar, Docs, Slides, and Forms, to turn my calendar events into tasks in my favorite gamefied task tracking app: Habitica.
@@ -31,5 +47,6 @@ If you don't know Google App Scripts and have no idea how to use the script abov
 
 [![Watch the video](https://www.google.com/script/start/as-playvid.png)](https://www.youtube.com/watch?v=JJgmU_JUsug)
     
+
 
 
